@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Nómina</title>
+    <link rel="stylesheet" href="./css/nomina.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Calcular Sueldo de Trabajadores</h2>
+
+        <div class="worker" id="trabajador1">
+            <h3>Trabajador 1</h3>
+            <input type="number" id="sueldo1" placeholder="Introduce el sueldo" min="0">
+        </div>
+
+        <div class="worker" id="trabajador2">
+            <h3>Trabajador 2</h3>
+            <input type="number" id="sueldo2" placeholder="Introduce el sueldo" min="0">
+        </div>
+
+        <div class="worker" id="trabajador3">
+            <h3>Trabajador 3</h3>
+            <input type="number" id="sueldo3" placeholder="Introduce el sueldo" min="0">
+        </div>
+
+        <div class="worker" id="trabajador4">
+            <h3>Trabajador 4</h3>
+            <input type="number" id="sueldo4" placeholder="Introduce el sueldo" min="0">
+        </div>
+
+        <div class="worker" id="trabajador5">
+            <h3>Trabajador 5</h3>
+            <input type="number" id="sueldo5" placeholder="Introduce el sueldo" min="0">
+        </div>
+
+        <button onclick="calcularNomina()">Calcular Nómina</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script src="./js/nomina.js"></script>
+</body>
+</html>

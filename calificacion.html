@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Promedio del Alumno</title>
+    <link rel="stylesheet" href="./css/calificacion.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Calcula el Promedio</h2>
+
+        <div class="subject">
+            <label for="materia1">Ingles:</label>
+            <input type="number" id="materia1" placeholder="Introduce tu calificación" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label for="materia2">Frances:</label>
+            <input type="number" id="materia2" placeholder="Introduce tu calificación" min="0" max="100">
+        </div>
+
+        <div class="subject">
+            <label for="materia3">Japones:</label>
+            <input type="number" id="materia3" placeholder="Introduce tu calificación" min="0" max="100">
+        </div>
+
+        <button onclick="calcularPromedio()">Calcular Promedio</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script src="./js/calificacion.js"></script>
+</body>
+</html>
